@@ -1,0 +1,49 @@
+.choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10% 10px 10%;
+}
+
+section.choices__metals {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 3% 0 3%;
+}
+
+section.choices__metals h2 {
+   text-align: center;
+}
+
+section.choices__metals div {
+    color: goldenrod;
+    display: block;
+}
+
+section.choices__sizes {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 3% 0 3%;
+}
+
+section.choices__sizes h2 {
+    text-align: center;
+ }
+
+section.choices__sizes div {
+    color: darkcyan;
+}
+
+section.choices__styles {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 3% 0 3%;
+}
+
+section.choices__styles h2 {
+    text-align: center;
+ }
+
+section.choices__styles div {
+    color: lightcoral;
+}
